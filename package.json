@@ -1,6 +1,6 @@
 {
   "name": "go-pr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Opens the PR associated currently checked out Git branch.",
   "bin": {
     "go-pr": "bin/main.js"
