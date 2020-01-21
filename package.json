@@ -1,0 +1,26 @@
+{
+  "name": "go-pr",
+  "version": "0.0.1",
+  "description": "Opens the PR associated currently checked out Git branch.",
+  "bin": {
+    "go-pr": "bin/main.js"
+  },
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Parker",
+  "license": "MIT",
+  "dependencies": {
+    "open": "^7.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/open": "^6.2.1",
+    "@types/request-promise": "^4.1.45"
+  }
+}
